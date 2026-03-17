@@ -7,6 +7,7 @@ class Array {
     int* ArrayItems;
 public:
     Array(int newSize = 5);
+    // Encabsoulation
     int getlength();
     int getSize();
     void append(int newItem);
@@ -19,7 +20,6 @@ public:
     int search(int WantedItem);
     void push(int newItem);
     void enLarge(int newSize);
-    void replace();
     void merge();
     void fill(int NumberOfItems = -1);
     bool isEmpty();
